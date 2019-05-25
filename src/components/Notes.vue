@@ -3,6 +3,7 @@
     <div class="note"
         :class="{
           full: !grid,
+          standard: note.importance == 'standard',
           importantly: note.importance == 'importantly',
           essential: note.importance == 'essential'
         }"
